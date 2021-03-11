@@ -1,0 +1,26 @@
+.container-dark {
+    background-color: #212529;
+ 
+    .btn-orange {
+        background: orange;
+        color: #212529;
+        font-size: 15px;
+        font-weight: bold;
+
+        &:hover {
+            background: #fce88b;
+            color: #212529;
+        }
+    }
+
+    .restaurant-create {
+        color: #fff;
+        border: 10px solid orange;
+        border-style: double;
+        padding: 10px;
+
+        p {
+            font-size: 18px;
+        }
+    }
+}

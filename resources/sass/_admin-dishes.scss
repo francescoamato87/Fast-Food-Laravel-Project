@@ -1,0 +1,27 @@
+.title-menu {
+    font-size: 42px;
+    font-weight: bold;
+    border-bottom: 5px solid orange;
+}
+
+h3 {
+    font-size: 21px;
+}
+
+hr {
+    border-top: 3px solid rgba(255,165,0, 0.5); 
+    margin-bottom: 0;
+}
+
+.btn-delete {
+    color: #212529;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #e3342f;
+    border-color: #e3342f;
+
+    &:hover {
+        background-color:orange;
+        border-color: orange;
+    }
+}

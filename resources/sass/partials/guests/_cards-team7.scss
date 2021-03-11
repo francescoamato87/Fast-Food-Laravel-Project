@@ -1,0 +1,87 @@
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/takeaway.jpg');
+    background-size: cover;
+}
+
+.container2 {
+    position: relative;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 5px;
+}
+
+.container2 .card {
+    position: relative;
+    max-width: 300px;
+    height: 200px;
+    background: #fff;
+    /* opacity: 0.5; */
+    margin: 30px 10px;
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 200px rgba(0, 0, 0, 0.4);
+    transition: 0.3s ease-in-out;
+}
+
+.container2 .card:hover {
+    height: 420px;
+}
+
+.container2 .card .imgBx {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    top: -60px;
+    left: 5px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container2 .card .imgBX img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container2 .card .content {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container2 .card:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -10px;
+    transition-delay: 0.3s;
+}
+
+@media screen and (max-width: 576px) {
+    .container-cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,218 @@
+.header-menu {
+    background: #212529;
+
+    h1 {
+        color: orange;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .btn-cart {
+        background: orange;
+        color: #212529;
+    }
+}
+
+.wrapper-piatti {
+    width: 1200px;
+    margin: 100px auto;
+    /* box-shadow: 2px 3px 1px 1px #CD6100;
+    background: #fce88b;  */
+    border-radius: 5px;
+}
+
+.title-piatti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: -40px;
+}
+
+.title-piatti img {
+    max-width: 150px;
+    border-bottom: 2px solid orange;
+    padding: 20px;
+}
+
+
+.menu-piatti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-menu-piatti {
+    flex-basis: 580px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.single-menu-piatti:nth-child(5),
+.single-menu-piatti:nth-child(6) {
+    border-bottom: 0;
+}
+
+.single-menu-piatti {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.single-menu-piatti:hover img {
+    border-radius: 0;
+}
+
+.single-menu-piatti img {
+    max-width: 180px;
+    margin-right: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 1px;
+    transition: .5s;
+}
+
+.single-menu-piatti h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    border-bottom: 1px dashed #333;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.single-menu-piatti h4 span {
+    float: right;
+    color: orange;
+    font-style: italic;
+
+}
+
+   .btn-darkorange {
+       background: #212529;
+       color: orange;
+       font-size: 15px;
+       font-weight: bold;
+
+       &:hover {
+       background: orange;
+       color: #212529;
+       }
+    }
+
+@media screen and (max-width: 576px) {
+    .wrapper-piatti {
+        display: flex;
+        /* align-items: flex-start; */
+        justify-content: center;
+    }
+
+    .title-piatti {
+        /* display: flex; */
+        justify-content: center;
+    }
+
+    .menu-piatti {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .single-menu-piatti {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .menu-content-piatti {
+        /* flex-direction: column; */
+        max-width: 372px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .header-menu {
+//     background: #212529;
+
+//     h1 {
+//         color: orange;
+//         text-align: center;
+//         text-transform: uppercase;
+//     }
+
+//     .btn-cart {
+//         background: orange;
+//         color: #212529;
+//     }
+// }
+
+
+// .menu-list {
+//     box-shadow: 2px 3px 1px 1px #CD6100;
+//     background: #fce88b;
+//     border-radius: 5px;
+
+//     .logo-menu {
+//         width: 200px;
+//     }
+
+//     .dish-list {
+//         width: 900px;
+//         margin: 10px auto;
+//         border-bottom: 1px solid black;
+
+//         h2 {
+//             background: #fff;
+//             border: 10px solid orange;
+//             border-style: double;
+//         }
+
+//         p {
+//             font-size: 18px;
+//         }
+
+//         .btn-darkorange {
+//             background: #212529;
+//             color: orange;
+//             font-size: 15px;
+//             font-weight: bold;
+
+//             &:hover {
+//                 background: orange;
+//                 color: #212529;
+//             }
+//         }
+
+//         &:last-child {
+//             border-bottom: none;
+//         }
+
+//         .list-item {
+//             background: #fff;
+//             padding: 15px;
+//             border-radius: 5px;
+//             box-shadow: 2px 3px 1px 1px orange;
+//         }
+//     }
+// }

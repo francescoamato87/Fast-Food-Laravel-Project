@@ -1,0 +1,51 @@
+.index {
+    background-color:  #212529;
+    color: #ffff;
+
+}
+
+.font-4 {
+    font-size: 30px;
+    color: #212529;
+}
+
+.card-restaurant {
+    background:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../images/misto5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.food-card-restaurant{
+    position: relative;
+    background: #fce88b;
+    color: #000;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5px;
+    border: 8px solid orange;
+    border-style: double;
+    box-shadow: 2px 3px 1px 1px #cd6100;
+    width: 300px;
+    height: 170px;
+    text-align: center;
+    margin: 25px 10px;
+    transition-duration: 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.no-restaurant {
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+
+.ricerca{
+    width: 400px;
+}

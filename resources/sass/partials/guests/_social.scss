@@ -1,0 +1,36 @@
+/* SOCIALS SECTION  */
+#social-icons {
+    height: 150px;
+    background: #fff;
+    text-align: center;
+    padding: 50x 0 50px 0;
+}
+
+#social-icons a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 40px 5px;
+    font-size: 40px;
+    border-radius: 5px;
+    transition: transform 2s ease, color 2s ease;
+}
+
+#social-icons a:hover {
+    transform: translateY(-20px);
+}
+
+.facebook {
+    color: #3b5998
+}
+
+.twitter {
+    color: #38a1f3;
+}
+
+.instagram {
+    color: #e1306c;
+}
+
+.plus {
+    color: #db4a39;
+}

@@ -1,0 +1,32 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// SECTIONS LAYOUT GUESTS VAMOS
+@import 'partials/guests/globals';
+@import 'partials/guests/header';
+@import 'partials/guests/about';
+@import 'partials/guests/menu';
+@import 'partials/guests/social';
+@import 'partials/guests/cards-team7';
+@import 'partials/guests/cards1';
+@import 'partials/guests/collage';
+@import 'partials/guests/index_guest';
+@import 'partials/guests/restaurant-menu';
+@import 'partials/guests/footer';
+@import 'partials/guests/riepilogo';
+
+// STATIC PAGE
+@import 'partials/guests/contatti';
+@import 'partials/guests/partners';
+@import 'partials/guests/gadget';
+@import 'partials/guests/google';
+@import 'partials/guests/azienda';
+
+@import 'admin';
+@import 'admin-dishes';

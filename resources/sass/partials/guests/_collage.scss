@@ -1,0 +1,34 @@
+/* GALLERY COLLAGE  */
+#gallery {
+    padding: 30px;
+    background: #fff;
+}
+
+.gallery-item {
+    background: linear-gradient(rgba(41, 161, 13)rgb(255, 165, 0));
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.gallery-item img:hover {
+    opacity: 0.5;
+}
+
+@media screen and (min-width: 576px) {
+    #gallery-center {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #gallery-center {
+        /* display: grid; */
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

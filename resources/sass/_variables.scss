@@ -1,0 +1,50 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+.text-white {
+    color: #fff;
+}
+
+.text-orange {
+    color: orange;
+    font-size: 24px;
+}
+.text-navbar{
+    font-size: 15px;
+    color: orange;
+}
+
+.min-height {
+    min-height: 100vh;
+}
+
+// .bg-orange {
+//     background-color: orange;    
+// }
+
+// .navbar-togglers {
+//     padding: 0.25rem 0.75rem;
+//     font-size: 1.125rem;
+//     line-height: 1;
+//     background-color: orange;
+//     border: 1px solid orange;
+//     border-radius: 0.25rem;
+// }
+
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
